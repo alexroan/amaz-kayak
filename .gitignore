@@ -1,0 +1,4 @@
+.env.php
+.DS_Store
+.htaccess
+wp-content/plugins
