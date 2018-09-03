@@ -55,7 +55,8 @@ Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 BRAND COLOURS
 white: 		#FFFFFF
 orange: 	#E6771F
-grey: 		#2E2D2C
+light grey:	#E0E1E1
+dark grey: 	#2E2D2C
 green: 		#0C2B26
 */
 
@@ -1318,9 +1319,6 @@ a:hover .nav-title,
 --------------------------------------------------------------*/
 
 .navigation-top {
-	background: #fff;
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
 	font-size: 16px;
 	font-size: 1rem;
 	position: relative;
@@ -1332,7 +1330,7 @@ a:hover .nav-title,
 }
 
 .navigation-top a {
-	color: #222;
+	color: #E0E1E1;
 	font-weight: 600;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
@@ -1616,7 +1614,6 @@ body.has-header-video .site-title a {
 body.has-header-image .site-description,
 body.has-header-video .site-description {
 	color: #E6771F;
-	opacity: 0.8;
 }
 
 .custom-logo-link {
