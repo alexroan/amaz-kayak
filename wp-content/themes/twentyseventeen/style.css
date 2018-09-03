@@ -51,6 +51,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
+/*
+BRAND COLOURS
+white: 		#FFFFFF
+orange: 	#E6771F
+grey: 		#2E2D2C
+green: 		#0C2B26
+*/
+
 html {
 	font-family: sans-serif;
 	line-height: 1.15;
@@ -1607,7 +1615,7 @@ body.has-header-video .site-title a {
 
 body.has-header-image .site-description,
 body.has-header-video .site-description {
-	color: #fff;
+	color: #E6771F;
 	opacity: 0.8;
 }
 
