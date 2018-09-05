@@ -76,6 +76,11 @@
     window.location.href = url;
   });
 
+  $('.logo').click(function(event){
+    url = $(this).attr('data-url');
+    window.location.href = url;
+  });
+
   // Load Events
   $(document).ready(UTIL.loadEvents);
 

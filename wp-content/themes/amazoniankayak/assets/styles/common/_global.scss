@@ -3,9 +3,13 @@ html{
         color: $brand-dark-grey;
         background-color: $brand-white;
         font-family: 'roboto'!important;
-    }
-}
 
-h1,h2,h3,h4,h5{
-    font-family: 'roboto slab'!important;
+        h1,h2,h3,h4,h5{
+            font-family: 'roboto slab'!important;
+        }
+
+        .content{
+            padding-top: 1.25rem;
+        }
+    }
 }

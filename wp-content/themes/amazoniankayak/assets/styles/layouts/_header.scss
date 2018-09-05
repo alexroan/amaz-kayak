@@ -1,6 +1,5 @@
 .banner{
-    .home-banner{
-        height: 90vh;
+    .header-banner{
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center center !important;
@@ -15,17 +14,6 @@
             background-color: $brand-green;
             opacity: 0.95;
         }
-        .home-logo{
-            position: absolute;
-            display: block;
-            height: 50%;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: -10vh;
-            margin: auto;
-        }
-        
         .menu-main-menu-container{
             position: absolute;
             width:100%;
@@ -36,7 +24,7 @@
                 background-color: $brand-light-grey;
                 li{                    
                     display:inline-block;
-                    padding: 2vw;
+                    padding: 1.25rem 2vw;
                     transition: background-color 0.3s ease-in-out;
                     &:hover{
                         background-color: $brand-orange;
@@ -48,7 +36,48 @@
                     a{
                         color: $brand-dark-grey;
                         transition: color 0.3s ease-in-out;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-family: 'roboto slab';
                     }
+                }
+            }
+        }
+
+        &.page-banner{
+            height: 30vh;
+            .logo{
+                position: absolute;
+                display: block;
+                height: 50%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: -10vh;
+                margin: auto;
+                transition: opacity 0.3s ease-in-out;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        &.home-banner{
+            height: 90vh;
+            .logo{
+                position: absolute;
+                display: block;
+                height: 50%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: -10vh;
+                margin: auto;
+                transition: opacity 0.3s ease-in-out;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.5;
                 }
             }
         }
