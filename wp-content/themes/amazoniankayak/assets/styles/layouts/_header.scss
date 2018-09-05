@@ -62,6 +62,7 @@
 
                 &.text-logo{
                     left:0;
+                    right:0;
                 }
             }
         }
@@ -81,6 +82,20 @@
                 &:hover{
                     cursor: pointer;
                     opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .banner{
+        .header-banner{
+            &.page-banner{
+                .logo{
+                    &.crest-logo{
+                        display:none;
+                    }
                 }
             }
         }
