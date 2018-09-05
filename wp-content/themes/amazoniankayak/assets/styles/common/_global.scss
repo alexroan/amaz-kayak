@@ -9,7 +9,17 @@ html{
         }
 
         .content{
-            padding-top: 1.25rem;
+            padding-top: 6rem;
+            position: relative;
+            &:after{
+                content:'';
+                position:absolute;
+                left:15px;
+                top:0;
+                width:12rem;
+                height:2rem;
+                background-color: $brand-orange;
+            }
         }
     }
 }

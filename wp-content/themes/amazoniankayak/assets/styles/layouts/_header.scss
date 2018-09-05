@@ -45,25 +45,29 @@
         }
 
         &.page-banner{
-            height: 30vh;
+            height: 12rem;
             .logo{
                 position: absolute;
                 display: block;
-                height: 50%;
+                height: 30%;
                 left: 1.25rem;
                 bottom: 0;
-                top: -10vh;
+                top: -4rem;
                 margin: auto;
                 transition: opacity 0.3s ease-in-out;
                 &:hover{
                     cursor: pointer;
                     opacity: 0.5;
                 }
+
+                &.text-logo{
+                    left:0;
+                }
             }
         }
 
         &.home-banner{
-            height: 90vh;
+            height: 36rem;
             .logo{
                 position: absolute;
                 display: block;
@@ -71,7 +75,7 @@
                 left: 0;
                 right: 0;
                 bottom: 0;
-                top: -10vh;
+                top: -4rem;
                 margin: auto;
                 transition: opacity 0.3s ease-in-out;
                 &:hover{
