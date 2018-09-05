@@ -22,18 +22,33 @@
             left: 0;
             right: 0;
             bottom: 0;
-            top: 0;
+            top: -10vh;
             margin: auto;
         }
         
         .menu-main-menu-container{
             position: absolute;
             width:100%;
+            bottom:0;
             ul{
                 display: block;
                 text-align: center;
+                background-color: $brand-light-grey;
                 li{                    
                     display:inline-block;
+                    padding: 2vw;
+                    transition: background-color 0.3s ease-in-out;
+                    &:hover{
+                        background-color: $brand-orange;
+                        cursor: pointer;
+                        a{
+                            color: $brand-white;
+                        }
+                    }
+                    a{
+                        color: $brand-dark-grey;
+                        transition: color 0.3s ease-in-out;
+                    }
                 }
             }
         }

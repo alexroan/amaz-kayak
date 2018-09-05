@@ -71,6 +71,11 @@
     }
   };
 
+  $('li.menu-item').click(function(event){
+    url = $(this).find('a').attr('href');
+    window.location.href = url;
+  });
+
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
