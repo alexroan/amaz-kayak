@@ -1,0 +1,41 @@
+.banner{
+    .home-banner{
+        height: 90vh;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        position:relative;
+        text-align:center;
+        .overlay{
+            position: absolute;
+            top:0;
+            left:0;
+            height:100%;
+            width:100%;
+            background-color: $brand-green;
+            opacity: 0.95;
+        }
+        .home-logo{
+            position: absolute;
+            display: block;
+            height: 50%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        
+        .menu-main-menu-container{
+            position: absolute;
+            width:100%;
+            ul{
+                display: block;
+                text-align: center;
+                li{                    
+                    display:inline-block;
+                }
+            }
+        }
+    }
+}
