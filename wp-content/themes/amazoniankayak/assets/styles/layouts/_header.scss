@@ -38,6 +38,7 @@
                         transition: color 0.3s ease-in-out;
                         text-decoration: none;
                         font-weight: 500;
+                        font-size: 1.25rem;
                         font-family: 'roboto slab';
                     }
                 }
@@ -91,6 +92,15 @@
 @media (max-width: 480px) {
     .banner{
         .header-banner{
+            .menu-main-menu-container{
+                ul{
+                    li{
+                        a{
+                            font-size:1rem;
+                        }
+                    }
+                }
+            }
             &.page-banner{
                 .logo{
                     &.crest-logo{

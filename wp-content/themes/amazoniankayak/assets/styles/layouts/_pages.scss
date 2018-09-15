@@ -1,0 +1,70 @@
+.page{
+    .wp-caption{
+        position: relative;
+        &.aligncenter{
+            width:100% !important;
+            img{
+                width:100%
+            }
+        }
+        .wp-caption-text{
+            position: absolute;
+            top: 0;
+            background-color: $brand-orange;
+            padding: 1.25rem 2rem;
+            color: white;
+            font-family: roboto slab;
+            font-weight: 500;
+            font-size: 1.25rem;
+        }
+    }
+
+    .split-container{
+        .image{
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+        .content{
+            padding:4rem;
+            .orange{
+                color: $brand-orange;
+                font-weight: 500;
+            }
+            &:after{
+                left:0;
+            }
+            &.content-left{
+                text-align: right;
+                &:after{
+                    right:0;
+                    left:auto; 
+                }
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .page{
+        .split-container{
+            .content{
+                padding:4rem 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .page{
+        .split-container{
+            .content{
+                &.content-left{
+                    text-align: left;
+                }
+            }
+            .image{
+                height:30rem;
+            }
+        }
+    }
+}

@@ -6,9 +6,11 @@ html{
 
         h1,h2,h3,h4,h5{
             font-family: 'roboto slab'!important;
+            font-weight: 700;
         }
 
         .content{
+            font-weight: 500;
             padding-top: 6rem;
             position: relative;
             &:after{
