@@ -1,12 +1,17 @@
 html{
     body{
-        color: $brand-dark-grey;
+        color: $brand-dark-grey, 50%;
         background-color: $brand-white;
         font-family: 'roboto'!important;
 
         h1,h2,h3,h4,h5{
             font-family: 'roboto slab'!important;
             font-weight: 700;
+        }
+
+        p{
+            color: lighten($brand-dark-grey, 40%);
+            font-size: 0.85rem;
         }
 
         .content{
