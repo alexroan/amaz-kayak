@@ -11,16 +11,17 @@
 
 <?php
 $flexibleContent = get_field('flexible_content');
-foreach ($flexibleContent as $item) {
-  switch ($item['acf_fc_layout']) {
-    case 'split_screen':
-      printSplitScreen($item);
-      break;
-    case 'grey_background':
-      printGreyBackground($item);
-      break;
+if($flexibleContent){
+  foreach ($flexibleContent as $item) {
+    switch ($item['acf_fc_layout']) {
+      case 'split_screen':
+        printSplitScreen($item);
+        break;
+      case 'grey_background':
+        printGreyBackground($item);
+        break;
+    }
   }
-
 }
 
 function printGreyBackground($details){
