@@ -12,6 +12,11 @@ html{
         p{
             color: lighten($brand-dark-grey, 40%);
             font-size: 0.85rem;
+            strong{
+                font-family: 'roboto slab' !important;
+                font-size: 1rem;
+                color: $brand-orange;
+            }
         }
 
         .content{

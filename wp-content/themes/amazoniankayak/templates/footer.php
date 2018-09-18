@@ -10,15 +10,17 @@
       endif;
     ?>
   </div>
-  <div class="footer-content container row">
-    <div class="col-md-6">
-      <div class="col-md-6 offset-md-3" style="background-image:url('<?= $footerLogo1; ?>')">
-        Col 1
+  <div class="footer-content row">
+    <div class="col-sm-6 footer-half">
+      <div class="col-sm-6 offset-sm-3">
+        <span class="helper"></span>
+        <img src="<?= $footerLogo1; ?>" alt="">
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="col-md-6 offset-md-3" style="background-image:url('<?= $footerLogo2; ?>')">
-        Col 2
+    <div class="col-sm-6 footer-half">
+      <div class="col-sm-6 offset-sm-3">
+        <span class="helper"></span>
+        <img src="<?= $footerLogo2; ?>" alt="">
       </div>
     </div>
   </div>

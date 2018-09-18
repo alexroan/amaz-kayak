@@ -1,0 +1,51 @@
+footer{
+
+    .menu-main-menu-container{
+        width:100%;
+        bottom:0;
+        ul{
+            display: block;
+            text-align: center;
+            background-color: $brand-light-grey;
+            li{
+                display:inline-block;
+                padding: 0.25rem 2vw;
+                transition: background-color 0.3s ease-in-out;
+                &:hover{
+                    background-color: $brand-orange;
+                    cursor: pointer;
+                    a{
+                        color: $brand-white;
+                    }
+                }
+                a{
+                    color: $brand-dark-grey;
+                    transition: color 0.3s ease-in-out;
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 0.85rem;
+                    font-family: 'roboto slab';
+                }
+            }
+        }
+    }
+
+    .footer-content{
+        background-color: $brand-dark-grey;
+        text-align: center;
+        width:100%;
+        margin:0;
+        .footer-half{
+            padding:2rem;
+            .helper{
+                display: inline-block;
+                height: 100%;
+                vertical-align: middle;
+            }
+            img{
+                width:100%;
+                vertical-align: middle;
+            }
+        }
+    }
+}
