@@ -18,6 +18,12 @@ html{
                 color: $brand-orange;
             }
         }
+        ul{
+            li{
+                color: lighten($brand-dark-grey, 40%);
+                font-size: 0.85rem;
+            }
+        }
 
         .content{
             font-weight: 500;

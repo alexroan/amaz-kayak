@@ -14,13 +14,13 @@
     <div class="col-sm-6 footer-half">
       <div class="col-sm-6 offset-sm-3">
         <span class="helper"></span>
-        <img src="<?= $footerLogo1; ?>" alt="">
+        <img src="<?= $footerLogo1["sizes"]["medium_large"]; ?>" alt="">
       </div>
     </div>
     <div class="col-sm-6 footer-half">
       <div class="col-sm-6 offset-sm-3">
         <span class="helper"></span>
-        <img src="<?= $footerLogo2; ?>" alt="">
+        <img src="<?= $footerLogo2["sizes"]["medium_large"]; ?>" alt="">
       </div>
     </div>
   </div>
