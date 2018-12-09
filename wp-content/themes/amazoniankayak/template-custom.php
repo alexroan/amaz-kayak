@@ -30,7 +30,7 @@ function printGreyBackground($details){
 
 function printSplitScreen($details) { 
   $imageSide = $details['image_side'];
-  $image = $details['image']['sizes']['large'];
+  $image = $details['image']['sizes']['medium_large'];
   $title = $details['title'];
   $subtitle = $details['subtitle'];
   $content = $details['content'];
