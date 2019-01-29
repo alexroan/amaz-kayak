@@ -18,6 +18,10 @@ else{
     <div class="header-banner <?= $class; ?>" style="background: url('<?= $image; ?>')">
       <div class="overlay"></div>
       <img src="<?= $logo ?>" data-url="<?= get_home_url(); ?>" alt="Home" class="logo crest-logo">
+      <div id="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
       <?php if (isset($textLogo)): ?>
         <img src="<?= $textLogo ?>" data-url="<?= get_home_url(); ?>" alt="Home" class="logo text-logo">
       <?php endif; ?>

@@ -85,6 +85,17 @@
                     opacity: 0.5;
                 }
             }
+            #social-icons{
+                position: absolute;
+                display: block;
+                height: 50%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 35rem;
+                margin: auto;
+                color: white;
+            }
         }
     }
 }
