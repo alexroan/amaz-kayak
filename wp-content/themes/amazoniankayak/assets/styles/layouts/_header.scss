@@ -46,14 +46,14 @@
         }
 
         &.page-banner{
-            height: 12rem;
+            height: 16rem;
             .logo{
                 position: absolute;
                 display: block;
                 height: 30%;
                 left: 1.25rem;
                 bottom: 0;
-                top: -4rem;
+                top: -8rem;
                 margin: auto;
                 transition: opacity 0.3s ease-in-out;
                 &:hover{
@@ -64,6 +64,25 @@
                 &.text-logo{
                     left:0;
                     right:0;
+                }
+            }
+            #social-icons{
+                position: absolute;
+                display: block;
+                height: 30%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 4rem;
+                margin: auto;
+                a{
+                    color: white;
+                    padding: 0.5rem;
+                    font-size: 1.5rem;
+                    transition: opacity .3s ease-in-out;
+                    &:hover{
+                        opacity: 0.5;
+                    }
                 }
             }
         }
@@ -94,7 +113,15 @@
                 bottom: 0;
                 top: 35rem;
                 margin: auto;
-                color: white;
+                a{
+                    color: white;
+                    padding: 0.5rem;
+                    font-size: 2rem;
+                    transition: opacity .3s ease-in-out;
+                    &:hover{
+                        opacity: 0.5;
+                    }
+                }
             }
         }
     }
