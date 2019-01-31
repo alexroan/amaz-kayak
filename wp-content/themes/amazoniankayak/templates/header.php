@@ -11,6 +11,7 @@ if(is_page_template('template-home.php')){
 else{
   $logo = get_field('logo_2', 'option');
   $textLogo = get_field('logo_3', 'option');
+  $header_right = get_field('header_right', 'option');
 }
 ?>
 
@@ -26,6 +27,9 @@ else{
       <?php if (isset($textLogo)): ?>
         <img src="<?= $textLogo ?>" data-url="<?= get_home_url(); ?>" alt="Home" class="logo text-logo">
       <?php endif; ?>
+      <div id="header-right">
+        <?= $header_right; ?>
+      </div>
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
