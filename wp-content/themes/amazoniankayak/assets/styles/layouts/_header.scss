@@ -46,7 +46,7 @@
         }
 
         &.page-banner{
-            height: 16rem;
+            height: 15rem;
             .logo{
                 position: absolute;
                 display: block;
@@ -108,7 +108,7 @@
                 left: 0;
                 right: 0;
                 bottom: 0;
-                top: -4rem;
+                top: -8rem;
                 margin: auto;
                 transition: opacity 0.3s ease-in-out;
                 &:hover{
