@@ -20,9 +20,9 @@ else{
       <div class="overlay"></div>
       <img src="<?= $logo ?>" data-url="<?= get_home_url(); ?>" alt="Home" class="logo crest-logo">
       <div id="social-icons">
-        <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <!-- <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a> -->
+        <a href="https://twitter.com/2020Kayak" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/amazoniankayak2020/" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
       <?php if (isset($textLogo)): ?>
         <img src="<?= $textLogo ?>" data-url="<?= get_home_url(); ?>" alt="Home" class="logo text-logo">
