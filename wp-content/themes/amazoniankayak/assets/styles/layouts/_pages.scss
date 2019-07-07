@@ -33,6 +33,9 @@
             background-position: center center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
+            &.image-dark{
+                background-color: $brand-green;
+            }
         }
         .content{
             padding:4rem;

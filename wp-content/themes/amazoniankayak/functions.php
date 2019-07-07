@@ -53,13 +53,13 @@ if ( ! function_exists('printSplitScreenBlog') ) {
     <a href="<?= $url; ?>" class="split-container-link" style="text-decoration: none;">
     <div class="split-container container row">
       <?php if ($imageSide == 'left') : ?>
-        <div class="col-lg-4 image" style="background-image:url('<?= $image; ?>')"></div>
+        <div class="col-lg-4 image image-dark" style="background-image:url('<?= $image; ?>')"></div>
         <div class="col-lg-8 content content-right">
           <h2><?= $title; ?></h2>
           <h4 class="orange"><?= $subtitle; ?></h4>
         </div>
       <?php else: ?>
-      <div class="col-lg-4 order-lg-last image image-right" style="background-image:url('<?= $image; ?>')"></div>
+      <div class="col-lg-4 order-lg-last image image-dark image-right" style="background-image:url('<?= $image; ?>')"></div>
       <div class="col-lg-8 order-lg-first content content-left">
         <h2><?= $title; ?></h2>
         <h4 class="orange"><?= $subtitle; ?></h4>
