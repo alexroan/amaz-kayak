@@ -37,6 +37,7 @@ if( ! function_exists('printGreyBackground')){
   }
 }
 
+//Blog split screen feature
 if ( ! function_exists('printSplitScreenBlog') ) {
   function printSplitScreenBlog($details, $imageSide) {
     // Get blog post info
@@ -72,6 +73,7 @@ if ( ! function_exists('printSplitScreenBlog') ) {
   }
 }
 
+// Normal split screen feature
 if ( ! function_exists('printSplitScreen') ){
   function printSplitScreen($details) { 
     $imageSide = $details['image_side'];
@@ -98,4 +100,26 @@ if ( ! function_exists('printSplitScreen') ){
       </div>
       <?php endif; ?>
     </div>
-<?php }} ?>
+<?php }} 
+
+// Just giving widget
+if ( ! function_exists('justgiving_widget')) {
+  function justgiving_widget() {
+    return '<div id="jg-widget-amazoniankayak2020-164"></div>
+      <script>
+      (function(){
+        var id="jg-widget-amazoniankayak2020-164",
+          doc=document,
+          pfx=(window.location.toString().indexOf("https")==0) ? "https" : "http";
+        var el=doc.getElementById(id);
+        if(el){
+          var js=doc.createElement(\'script\');
+          js.src=pfx+"://widgets.justgiving.com/fundraisingpage/amazoniankayak2020?enc=ZT1qZy13aWRnZXQtYW1hem9uaWFua2F5YWsyMDIwLTE2NCZ3PTQwMCZiPWlubmVyLGRvbmF0ZSxmdW5kcmFpc2UmaWI9cHJvZ3Jlc3MscmFpc2VkLHRhcmdldA%3D%3D";
+          el.parentNode.insertBefore(js, el);
+        }
+      })();
+      </script>';
+    
+  }
+}
+add_shortcode('justgiving', 'justgiving_widget');

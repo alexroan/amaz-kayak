@@ -87,3 +87,32 @@
         }
     }
 }
+
+//Justgiving widget styles
+html .jg-widget{
+    border: 1px solid $brand-green !important;
+    min-width: 100% !important;
+    &::after{
+        width: 0 !important;
+        height: 0 !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        padding: 0 !important;
+    }
+
+    .jg-widget-fr-progress{
+        border: 1px solid $brand-orange !important;
+        height:15px;
+        .jg-widget-fr-progress-inner{
+            background-color: $brand-orange !important;
+        }
+    }
+
+    .jg-button-primary{
+        background: $brand-orange !important;
+    }
+
+    .jg-button-magic{
+        background: $brand-green !important;
+    }
+}
