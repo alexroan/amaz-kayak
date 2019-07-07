@@ -3,4 +3,5 @@
 - Copy compiled styles over
 - Copy changed files over
 - Create a new 'blog posts' page with template_blog_menu as template
--  Add [justgiving] shortcode to multiple pages and places
+- Add [justgiving] shortcode to multiple pages and places
+- Add [countdown] shortcode to multiple pages and places
