@@ -50,7 +50,7 @@ if ( ! function_exists('printSplitScreenBlog') ) {
     ?>
 
     <!-- Print out blog post tile -->
-    <a href="<?= $url; ?>" style="text-decoration: none;">
+    <a href="<?= $url; ?>" class="split-container-link" style="text-decoration: none;">
     <div class="split-container container row">
       <?php if ($imageSide == 'left') : ?>
         <div class="col-lg-4 image" style="background-image:url('<?= $image; ?>')"></div>

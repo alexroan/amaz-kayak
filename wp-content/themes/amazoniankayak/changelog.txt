@@ -1,0 +1,3 @@
+- Copy compiled styles over
+- Copy changed files over
+- Create a new 'blog posts' page with template_blog_menu as template

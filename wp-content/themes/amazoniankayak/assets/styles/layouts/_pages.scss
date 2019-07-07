@@ -19,6 +19,15 @@
         }
     }
 
+    a.split-container-link{
+        .split-container{
+            transition: opacity 0.3s ease-in-out;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+
     .split-container{
         .image{
             background-position: center center !important;
