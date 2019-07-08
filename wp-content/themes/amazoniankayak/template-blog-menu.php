@@ -3,7 +3,8 @@
  * Template Name: Blog Menu Template
  */
 
-$blogPosts = get_posts();
+$args = array('numberposts' => 10);
+$blogPosts = get_posts($args);
 ?>
 
 <h1><?= the_title(); ?></h1>
