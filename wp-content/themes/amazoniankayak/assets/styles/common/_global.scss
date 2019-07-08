@@ -8,7 +8,6 @@ html{
             font-family: 'roboto slab'!important;
             font-weight: 700;
         }
-
         p{
             color: lighten($brand-dark-grey, 40%);
             font-size: 0.85rem;
@@ -39,5 +38,10 @@ html{
                 background-color: $brand-orange;
             }
         }
+    }
+
+
+    .countdown-section{
+        text-align: center;
     }
 }

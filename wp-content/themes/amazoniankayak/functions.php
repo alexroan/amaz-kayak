@@ -46,7 +46,7 @@ if ( ! function_exists('printSplitScreenBlog') ) {
     if (! $image) {
       $image = get_field('logo', 'option');
     }
-    $subtitle = $details->post_date;
+    $subtitle = date('j F Y', strtotime($details->post_date));
     $url = get_the_permalink($details);
     ?>
 
@@ -128,10 +128,13 @@ if ( ! function_exists('countdown_timer') ) {
   function countdown_timer($atts = array()) {
     // set up default parameters
     extract(shortcode_atts(array(
-      'date' => "Jan 5, 2021 15:37:25"
+      'date' => "Jan 5, 2021 15:37:25",
+      'text' => "COUNTDOWN"
     ), $atts));
-    return "<h4>COUNTDOWN</h4>
-    <h5 id=\"demo\"></h5>
+    return "<div class=\"countdown-section\">
+    <h4>$text</h4>
+    <h5 id=\"countdown-timer\"></h5>
+    </div>
     <script>
     var countDownDate = new Date(\"$date\").getTime();
     var x = setInterval(function() {
@@ -141,11 +144,11 @@ if ( ! function_exists('countdown_timer') ) {
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-      document.getElementById(\"demo\").innerHTML = days + \"d \" + hours + \"h \"
+      document.getElementById(\"countdown-timer\").innerHTML = days + \"d \" + hours + \"h \"
       + minutes + \"m \" + seconds + \"s \";
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById(\"demo\").innerHTML = \"EXPIRED\";
+        document.getElementById(\"countdown-timer\").innerHTML = \"EXPIRED\";
       }
     }, 1000);
     </script>";
