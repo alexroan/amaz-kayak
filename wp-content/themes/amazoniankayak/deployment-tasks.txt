@@ -1,7 +1,8 @@
-- Merge branch
-- Tag release
-- Copy compiled styles over
-- Copy changed files over
-- Create a new 'blog posts' page with template_blog_menu as template
-- Add [justgiving] shortcode to multiple pages and places
-- Add [countdown date="" text=""] shortcode to multiple pages and places
+---- Merge branch
+-+++ Tag release
+---- Copy compiled styles over
+---- Copy changed files over
+---- Create a new 'blog posts' page with template_blog_menu as template
+- Create menu item
+---- Add [justgiving] shortcode to multiple pages and places
+---- Add [countdown date="" text=""] shortcode to multiple pages and places

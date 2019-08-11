@@ -81,6 +81,15 @@
     window.location.href = url;
   });
 
+  //Gallery modal
+  $('.gallery-image').click(function(event){
+    $('.modal').show();
+    $('#img01').attr('src', $(this).attr('data-url'));
+  });
+  $('.close').click(function(event){
+    $('.modal').hide();
+  });
+
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
