@@ -88,6 +88,7 @@ function display_sidebar() {
     is_page_template('template-custom.php'),
     is_page_template('template-blog-menu.php'),
     is_page_template('template-gallery.php'),
+    is_page_template('template-albums.php'),
     \is_single()
   ]);
 

@@ -28,6 +28,33 @@
         }
     }
 
+    .albums-container{
+        .album-wrapper{
+            .album-link{
+                .album-cover{
+                    .album-image{
+                        width:100%;
+                        height:20rem;
+                        background-position: center center !important;
+                        background-repeat: no-repeat !important;
+                        background-size: cover !important;
+                        background-color: $brand-green;
+                    }
+                    .album-title{
+                        color: $brand-dark-grey;
+                    }
+                    transition: opacity 0.3s ease-in-out;
+                    &:hover{
+                        opacity: 0.5;
+                    }
+                }
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
     .gallery-container{
         .gallery-image{
             background-position: center center !important;
