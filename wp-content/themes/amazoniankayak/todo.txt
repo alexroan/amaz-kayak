@@ -1,0 +1,6 @@
+- Home content changes - DONE
+- Not Forgotten Logo
+- Gallery template     - DONE not live
+- Albums template      - DONE not live
+- Sponsors page
+- Justgiving Widget    - DONE not live
