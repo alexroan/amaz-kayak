@@ -31,10 +31,24 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page();	
 }
 
-if( ! function_exists('printGreyBackground')){
-  function printGreyBackground(){
-    print_r(json_encode('grey background'));
-  }
+if( ! function_exists('printSponsors')){
+  function printSponsors($sponsors){ ?>
+  <div class="container sponsor-container row">
+  <?php
+    foreach ($sponsors['sponsor_details'] as $sponsor) {
+      $image = $sponsor['image']['sizes']['medium_large'];
+      $url = $sponsor['url'];
+      ?>
+      <div class="col-sm-4 col-md-3">
+        <a href="<?= $url; ?>" class="sponsor-link">
+          <div style="background-image:url('<?= $image; ?>')" class="sponsor-image"></div>
+        </a>
+      </div>
+      <?php
+    }
+  ?>
+  </div>
+  <?php }
 }
 
 //Blog split screen feature

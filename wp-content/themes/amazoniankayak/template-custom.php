@@ -17,8 +17,8 @@ if($flexibleContent){
       case 'split_screen':
         printSplitScreen($item);
         break;
-      case 'grey_background':
-        printGreyBackground($item);
+      case 'sponsors':
+        printSponsors($item);
         break;
     }
   }

@@ -28,6 +28,18 @@
         }
     }
 
+    .sponsor-container{
+        .sponsor-link{
+            .sponsor-image{
+                background-position: center center !important;
+                background-repeat: no-repeat !important;
+                background-size: contain !important;
+                width:100%;
+                height:10rem;
+            }
+        }
+    }
+
     .albums-container{
         .album-wrapper{
             .album-link{
