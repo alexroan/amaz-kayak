@@ -2,5 +2,5 @@
 - Not Forgotten Logo
 - Gallery template     - DONE not live
 - Albums template      - DONE not live
-- Sponsors page
+- Sponsors page        - DONE not live
 - Justgiving Widget    - DONE not live
