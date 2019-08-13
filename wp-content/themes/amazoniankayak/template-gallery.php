@@ -14,7 +14,7 @@
 <div class="container gallery-container row">
     <?php foreach ($gallery as $image) : ?>
         <?php 
-            $url = $image['sizes']['medium_large']; 
+            $url = $image['sizes']['medium']; 
             $largeUrl = $image['sizes']['large'];
         ?>
         <div class="col-sm-4 gallery-image" data-url="<?= $largeUrl; ?>" style="background-image:url('<?= $url; ?>')"></div>

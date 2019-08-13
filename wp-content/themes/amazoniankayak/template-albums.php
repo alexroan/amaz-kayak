@@ -29,7 +29,7 @@ $result = new WP_Query( $args );
 <?php
 foreach ($result->posts as $post) :
     $title = $post->post_title;
-    $image = get_the_post_thumbnail_url($post, 'medium_large');
+    $image = get_the_post_thumbnail_url($post, 'medium');
     if (! $image) {
       $image = $defaultImage;
     }
