@@ -139,12 +139,13 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
     .banner{
         .header-banner{
             .menu-main-menu-container{
                 ul{
                     li{
+                        padding: 0.25rem 2vw;
                         a{
                             font-size:1rem;
                         }

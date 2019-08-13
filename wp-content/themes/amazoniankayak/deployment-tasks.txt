@@ -1,8 +1,8 @@
----- Merge branch
--+++ Tag release
----- Copy compiled styles over
----- Copy changed files over
----- Create new ACF to correspond with Dev
+ Merge branch
+ Tag release
+ Copy compiled styles over
+ Copy changed files over
+ Create new ACF to correspond with Dev
 ---- For every Album, create new page using 'Gallery template'
 ---- Create 'albums' page
 ---- Create 'albums' menu item
